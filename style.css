@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: #f9fbff;
+}
+h1{
+    text-align: center;
+    text-shadow: 3px;
+    color: #f36b3a;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+}
+table{
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px #e1e5ee;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+} 
+thead {
+      box-shadow: 0 5px 10px #e1e5ee;
+      color: #e4a791;
+    }
+  
+th {
+      padding: 1rem 2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 0.7rem;
+      font-weight: 900;
+    }
+  
+td {
+      padding: 1rem 2rem;
+    }
+    
+.zero{
+    color: white;
+    background-color: #f33a3a;
+}
+select{
+ width: 400px;
+ border-radius: 5px;
+ background: #ffeae2;
+ color :#e4a791;
+}
